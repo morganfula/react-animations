@@ -3,6 +3,9 @@ import React from "react";
 import arrow from "./images/arrow-right.svg";
 import "./App.scss";
 
+import imgGirl from "./images/girl.webp";
+import imgBoy from "./images/boy.webp";
+
 function App() {
   return (
     <div className='hero'>
@@ -40,7 +43,16 @@ function App() {
               </div>
             </div>
           </div>
-          <div className='hero-images'></div>
+          <div className='hero-images'>
+            <div className='hero-images-inner'>
+              <div className='hero-image girl'>
+                <img src={imgGirl} alt='girl' />
+              </div>
+              <div className='hero-image boy'>
+                <img src={imgBoy} alt='boy' />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
