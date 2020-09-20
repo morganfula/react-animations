@@ -3,8 +3,8 @@ import { TweenMax, TimelineLite, Power3 } from "gsap";
 import "./App.scss";
 
 import arrow from "./images/arrow-right.svg";
-import imgGirl from "./images/girl.webp";
-import imgBoy from "./images/boy.webp";
+import imgGirl from "./images/girl.jpg";
+import imgBoy from "./images/boy.jpg";
 
 function App() {
   let app = useRef(null);
@@ -53,22 +53,21 @@ function App() {
               <h1>
                 <div className='hero-content-line'>
                   <div className='hero-content-line-inner'>
-                    Relieving the burden
+                    Spring rain
                   </div>
                 </div>
                 <div className='hero-content-line'>
                   <div className='hero-content-line-inner'>
-                    of disease caused
+                    all things on earth
                   </div>
                 </div>
                 <div className='hero-content-line'>
-                  <div className='hero-content-line-inner'>by behaviors.</div>
+                  <div className='hero-content-line-inner'>become beautiful.</div>
                 </div>
               </h1>
               <p>
-                Better treats serious cardiometabolic diseases to transform
-                lives and reduce healthcare utilization through the use of
-                digital therapeutics.
+                The idea of beauty is always shifting. Today, it’s more inclusive than ever.
+                Whom we deem ‘beautiful’ is a reflection of our values. Now, a more expansive world has arrived where ‘we are all beautiful.’
               </p>
               <div className='btn-row'>
                 <button className='explore-button'>
